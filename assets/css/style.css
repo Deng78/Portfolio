@@ -113,6 +113,10 @@
     background-color: #EBEBEB;
 }
 
+#about-me {
+    text-align: center;
+}
+
 .profile-pic {
     margin-top: 50px;
     height: 380px;
@@ -262,7 +266,7 @@ h3 {
 
 .portfolio {
     background-color: #EDEDED;
-    height: 600px;
+    padding-bottom: 40px;
 }
 
 
@@ -386,4 +390,12 @@ h3 {
 .white {
     color: white;
     margin-top: 7px;
+}
+
+@media screen and (max-width: 489px) {
+    .icon-scroll,
+    .icon-scroll:before,
+    .white {
+        display: none;
+    }
 }
