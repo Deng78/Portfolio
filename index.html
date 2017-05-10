@@ -39,7 +39,10 @@
                 <a href="https://www.linkedin.com/in/deng-neyal-268763133/"><img alt="linkedin" src="assets/img/social/LinkedIn-color.svg"></a>
             </div>
             <p class="center button-space"><a href="#"><button class="button">DOWNLOAD RESUME</button></a></p>
-
+            <a href="#about-me" class="scroll" id="scroll">
+                <div class='icon-scroll'></div>
+            </a>
+            <p class="center white">Scroll</p>
         </div>
     </div>
     <!-- END OF HEADER SECTION -->
@@ -189,6 +192,11 @@
     <script>
         // target with query by class
         $('.nav').localScroll();
+        $("#scroll").click(function() {
+            $('html, body').animate({
+                scrollTop: $("#about-me").offset().top
+            }, 1000);
+        });
     </script>
 </body>
 
