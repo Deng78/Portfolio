@@ -262,6 +262,7 @@ h3 {
 
 .portfolio {
     background-color: #EDEDED;
+    height: 600px;
 }
 
 
@@ -309,4 +310,19 @@ h3 {
 
 .btn {
     width: 95.1%!important;
+}
+
+.image {
+    border: solid #EDEDED 4px;
+    padding: 1px;
+}
+
+.image:hover {
+    border: solid #2598CD 4px;
+    transition: 0.2s ease-in;
+}
+
+.crop {
+    padding-top: 30px;
+    max-height: 300px;
 }
