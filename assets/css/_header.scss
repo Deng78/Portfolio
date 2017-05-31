@@ -1,0 +1,167 @@
+/* HEADER SECTION */
+
+.header-section {
+    background-image: url('http://dengneyal.com/assets/img/banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    height: 870px;
+}
+
+.banner-img {
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: none;
+}
+
+.social a {
+    padding-right: 5px;
+    img {
+        width: 40px;
+        height: auto;
+        padding-top: 1.2em;
+        padding-top: 15px;
+    }
+}
+
+
+/* Nav */
+
+.nav {
+    text-align: center;
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        li {
+            display: inline-block;
+        }
+        li:first-child {
+            margin-left: 0;
+        }
+        a {
+            font-family: "Caviar Dreams";
+            font-size: 20px;
+            display: block;
+            color: #C9C9C9;
+            text-align: center;
+            padding: 18px 10px;
+            text-decoration: none;
+        }
+        a,
+        a:hover {
+            -o-transition: color 0.25s ease-in;
+            -webkit-transition: color 0.25s ease-in;
+            -moz-transition: color 0.25s ease-in;
+            transition: color 0.25s ease-in;
+        }
+    }
+}
+
+
+/* Text Section */
+
+.title {
+    margin-top: 350px;
+    h1 {
+        font-size: 70px;
+        color: #C9C9C9;
+    }
+    h2 {
+        font-size: 30px;
+        color: #C9C9C9;
+        font-weight: 100;
+    }
+}
+
+
+/* button */
+
+.button-space {
+    padding-top: 50px;
+}
+.button {
+        background-color: #2598CD;
+        /* Green */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+    }
+
+
+/* scroll */
+
+.icon-scroll,
+.icon-scroll:before {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.icon-scroll {
+    width: 40px;
+    height: 60px;
+    bottom: 100px;
+    box-shadow: inset 0 0 0 1px #fff;
+    border-radius: 25px;
+}
+
+.icon-scroll:before {
+    content: '';
+    width: 8px;
+    height: 8px;
+    background: #fff;
+    top: 8px;
+    border-radius: 4px;
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-name: scroll;
+    animation-name: scroll;
+}
+
+@-webkit-keyframes scroll {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        -webkit-transform: translateY(46px);
+        transform: translateY(46px);
+    }
+}
+
+@keyframes scroll {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        -webkit-transform: translateY(46px);
+        transform: translateY(46px);
+    }
+}
+
+.white {
+    color: white;
+    margin-top: 7px;
+}
+
+@media screen and (max-width: 489px) {
+    .icon-scroll,
+    .icon-scroll:before,
+    .white {
+        display: none;
+    }
+}
+
+
+/* END OF HEADER SECTION */

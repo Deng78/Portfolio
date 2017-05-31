@@ -1,0 +1,21 @@
+/* PORTFOLIO SECTION */
+
+.portfolio {
+    background-color: #EDEDED;
+    padding-bottom: 40px;
+}
+
+.image {
+    border: solid #EDEDED 4px;
+    padding: 1px;
+}
+
+.image:hover {
+    border: solid #2598CD 4px;
+    transition: 0.2s ease-in;
+}
+
+.crop {
+    padding-top: 30px;
+    max-height: 400px;
+}
