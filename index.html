@@ -1,214 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Deng Neyal</title>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Deng Neyal's Web Development Portfolio">
-    <meta name="keywords" content="deng, neyal, deng neyal, dengneyal, web development, portfolio, david neyal, github, coding">
-    <link href="assets/css/materialize.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link href="assets/css/style.css" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Deng Neyal</title>
+    <!-- CSS Files -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">    
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <header class="header" id="header">
-        <nav>
-            <div class="nav-wrapper">
-                <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">reorder</i></a>
-                <a href="#" class="brand-logo center hide">Deng</a>
-                <ul id="nav-mobile" class="right hide-on-med-and-down">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li class="hide"><a href="#services">Services</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-                <ul class="side-nav" id="mobile-demo">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
+    <div id="part" class="gradient-bg">
+            <header class="header" id="header">
+                    <nav style="position:absolute;">
+                        <div class="nav-wrapper" id="home">
+                            <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">reorder</i></a>
+                            <a href="#" class="brand-logo center hide">Deng</a>
+                            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                                <li><a href="#home">Home</a></li>
+                                <li><a href="#portfolio">Portfolio</a></li>
+                                <li class="hide"><a href="#services">Services</a></li>
+                                <li><a href="#about">About</a></li>
+                                <li><a href="#contact">Contact</a></li>
+                            </ul>
+                            <ul class="side-nav" id="mobile-demo">
+                                <li><a href="#home">Home</a></li>
+                                <li><a href="#portfolio">Portfolio</a></li>
+                                <li><a href="#about">About</a></li>
+                                <li><a href="#contact">Contact</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                    <div class="header-content grey-text text-lighten-2">
+                        <h1 class="center">DENG A <span class="blue-text">NEYAL</span></h1>
+                        <!-- WEB DESIGN & DEVELOPER -->
+                        <h3 class="center" style="font-weight:300;">WEB <span id="desc" class="desc blue-text"></span></h3>
+                        <div class="social center">
+                            <a href="http://github.com/deng78"><img alt="github" src="assets/img/social/Github-color.svg"></a>
+                            <a href="https://plus.google.com/u/1/116653459644447643537"><img alt="gplus" src="assets/img/social/GooglePlus-color.svg"></a>
+                            <a href="http://www.instagram.com/deng78"><img alt="instagram" src="assets/img/social/Instagram-color.svg"></a>
+                            <a href="http://www.twitter.com/dengneyal"><img alt="twitter" src="assets/img/social/Twitter-color.svg"></a>
+                            <a href="https://www.linkedin.com/in/deng-neyal-268763133/"><img alt="linkedin" src="assets/img/social/LinkedIn-color.svg"></a>
+                        </div>
+                        <p class="center"><a class="waves-effect waves-dark btn blue btn-large" href="resume.pdf">DOWNLOAD RESUME</a></p>
+                        <div class="scroll-container">
+                        <a href="#about" class="scroll" id="scroll">
+                            <div class='icon-scroll'></div>
+                        </a>
+                        <p class="center scroll-text">Scroll</p>
+                        </div>
+                </header>
+    </div>
+    <main>
+        <div class="container">
+            <!-- About Me Section -->
+            <div id="about">
+                    <h4 class=" center-align section-text">ABOUT <span class="blue-text">ME</span></h4>
+                    <p class="center-align">Hey, I'm Deng. I'm a 19yr old Front-End Developer based in Brisbane, AU. I'm currently
+                        learning JavaScript, Node.js and PHP and aspire to become a Full-stack Developer. When I'm not coding I'm
+                        playing Soccer/Football and make it a habit to keep a healthy lifestyle to balance my coding passion.
+                        If you have any questions? or interested in working together? <a href="#contact">Send me an email.</a>
+                    </p>
             </div>
-        </nav>
-        <div class="header-content grey-text text-lighten-2">
-            <h1 class="center">DENG A <span class="blue-text">NEYAL</span></h1>
-            <h3 class="center" style="font-weight:300;">WEB DESIGN & DEVELOPER</h3>
-            <div class="social center">
-                <a href="http://github.com/deng78"><img alt="github" src="assets/img/social/Github-color.svg"></a>
-                <a href="https://plus.google.com/u/1/116653459644447643537"><img alt="gplus" src="assets/img/social/GooglePlus-color.svg"></a>
-                <a href="http://www.instagram.com/deng78"><img alt="instagram" src="assets/img/social/Instagram-color.svg"></a>
-                <a href="http://www.twitter.com/dengneyal"><img alt="twitter" src="assets/img/social/Twitter-color.svg"></a>
-                <a href="https://www.linkedin.com/in/deng-neyal-268763133/"><img alt="linkedin" src="assets/img/social/LinkedIn-color.svg"></a>
+             <!-- Portfolio Section -->
+        <div id="portfolio"  style="height:70vh">
+            <h4 class="center-align section-text">MY <span class="blue-text">PORTFOLIO</span></h4>
+            <div class="container">
+                <h3 style="font-weight:300; padding-top: 20vh; text-transform: capitalize;text-align:center;" >Currently Being Updated... Stay Tuned and check out my Github <a href="http://www.github.com/deng78">@deng78</a></h3>                
             </div>
-            <p class="center"><a class="waves-effect waves-dark btn blue btn-large" href="resume.pdf">DOWNLOAD RESUME</a></p>
-            <a href="#about" class="scroll" id="scroll">
-                <div class='icon-scroll'></div>
-            </a>
-            <p class="center scroll-text">Scroll</p>
-        </div>
-    </header>
-
-    <div class="container">
-
-        <!-- About Me Section -->
-        <div id="about">
-        <div class="row">
-            <div class="col s12 m6">
-                <img alt="Profile" src="assets/img/profile.jpg" class="profile-pic">
             </div>
-            <div class="col s12 m6">
-                <h4 class=" center-align section-text">ABOUT <span class="blue-text">ME</span></h4>
-                <p>Hey, I'm Deng. I'm a 18yr old Junior Level Front-End Developer &amp; Athlete based in Brisbane, AU. I'm currently
-                    learning JavaScript, Node.js and PHP and aspire to become a Full-stack Developer in the future. I speak
-                    4 languages and I'm learning Portuguese and Spanish, so feel free to test me. When I'm not coding I'm
-                    playing Soccer/Football and make it a habit to keep a healthy lifestyle to balance my coding addiction.
-                    If you have any questions? or interested in working together? <a href="#contact">send me an email.</a>
-                </p>
-                <h5>HTML<span class="right">95%</span></h5>
-                <div class="progress light-blue lighten-4" style="height: 20px;">
-                    <div class="determinate light-blue lighten-1" style="width: 95%"></div>
-                </div>
-                <h5>CSS<span class="right">75%</span></h5>
-                <div class="progress orange lighten-4" style="height: 20px;">
-                    <div class="determinate orange" style="width: 75%"></div>
-                </div>
-                <h5>Javascript<span class="right">50%</span></h5>
-                <div class="progress red lighten-4" style="height: 20px;">
-                    <div class="determinate red lighten-1" style="width: 60%"></div>
-                </div>
-
-            </div>
-        </div>
-        </div>
-
-        <!-- Portfolio Section -->
-        <div id="portfolio">
-        <h4 class="center-align section-text">MY <span class="blue-text">PORTFOLIO</span></h4>
-        <div class="row">
-            <div class="col s12 m4">
-                <div class="card">
-                    <div class="card-image">
-                        <img src="assets/img/portfolio/calculatorApp.png" alt="Calculator App">
-                        <span class="card-title">Simple Calculator</span>
-                    </div>
-                    <div class="card-content card-height">
-                        <p>This is a simple calculator project using HTML, CSS, JS and Electron JS to create a cross-platform application desktop application.</p>
-                    </div>
-                    <div class="card-action">
-                        <a href="#">GITHUB</a>
-                        <a href="#">TRY</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col s12 m4">
-                <div class="card">
-                    <div class="card-image">
-                        <img src="assets/img/portfolio/todoList.png" alt="TODO List App">
-                        <span class="card-title black-text">Todo List App</span>
-                    </div>
-                    <div class="card-content card-height">
-                        <p>Todo List app I build following a tutorial and adapted to a Electron application. </p>
-                    </div>
-                    <div class="card-action">
-                        <a href="#">GITHUB</a>
-                        <a href="#">TRY</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col s12 m4">
-                <div class="card">
-                    <div class="card-image">
-                        <img src="assets/img/portfolio/postful.png" alt="POSTful screenshot">
-                        <span class="card-title black-text">Postful</span>
-                    </div>
-                    <div class="card-content card-height">
-                        <p>Simple Javascript website that makes GET, DELETE, POST and PUT requests. This Project was inspired from the postman program to make API calls.</p>
-                    </div>
-                    <div class="card-action">
-                        <a href="#">GITHUB</a>
-                        <a href="#">TRY</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col s12 m4">
-                <div class="card">
-                    <div class="card-image">
-                        <img src="assets/img/portfolio/mean.png" alt="MEAN Stack App">
-                        <span class="card-title black-text">MEAN Stack App</span>
-                    </div>
-                    <div class="card-content card-height">
-                        <p>Complete MEAN Stack application build following a tutorial with JWT authentication</p>
-                    </div>
-                    <div class="card-action">
-                        <a href="https://github.com/Deng78/MEAN-APP">GITHUB</a>
-                        <a href="https://sheltered-shelf-36887.herokuapp.com">TRY</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </div>
-
         <!-- Contact ME -->
         <div id="contact">
-        <h4 class="center-align section-text">CONTACT <span class="blue-text">ME</span></h4>
-        <p class="center color1"> Contact me below or send me an email at <a href="mailto:dengneyal@gmail.com">Dengneyal@gmail.com</a></p>
-        <div class="row">
-            <div class="col s12 m6">
-                <img src="assets/img/map.png" alt="Map" class="profile-pic">
-            </div>
-            <form class="col s12 m6" id="contactForm" action="https://formspree.io/dengneyal@gmail.com" method="POST">
-                <div class="row section-text">
+            <h4 class="center-align section-text">CONTACT <span class="blue-text">ME</span></h4>
+            <p class="center color1"> Contact me below or send me an email at <a href="mailto:dengneyal@gmail.com">Dengneyal@gmail.com</a></p>
+            <div class="row">
+                <div class="col s12 m6">
+                    <img src="assets/img/map.png" alt="Map" class="map">
+                </div>
+                <form class="col s12 m6" id="contactForm" action="https://formspree.io/dengneyal@gmail.com" method="POST">
+                    <div class="row section-text">
+                        <div class="input-field col s12">
+                        <input  id="first_name" type="text" class="validate" name="name">
+                        <label>Name</label>
+                    </div>
                     <div class="input-field col s12">
-                    <input  id="first_name" type="text" class="validate" name="name">
-                    <label>Name</label>
+                        <input id="email" type="email" class="validate" name="email">
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="input-field col s12">
+                        <textarea id="textarea1" class="materialize-textarea" name="message"></textarea>
+                        <label for="textarea1">Message</label>
+                    </div>
                 </div>
-                <div class="input-field col s12">
-                    <input id="email" type="email" class="validate" name="email">
-                    <label for="email">Email</label>
-                </div>
-                <div class="input-field col s12">
-                    <textarea id="textarea1" class="materialize-textarea" name="message"></textarea>
-                    <label for="textarea1">Message</label>
-                </div>
+                <a class="btn btn-block blue" onclick="document.getElementById('contactForm').submit();">Submit</a>
+                </form>
             </div>
-            <a class="btn btn-block blue" onclick="document.getElementById('contactForm').submit();">Submit</a>
-            </form>
+            </div>
         </div>
-        </div>
-
-    <!-- ./Container -->
-    </div>
+    </main>
     <!-- Footer -->
-        <footer class="page-footer red lighten-2">
-          <div class="footer-copyright">
-            <div class="container">
-            Deng Neyal 2017
-            <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
-            </div>
+    <footer class="page-footer gradient-bg">
+        <div class="footer-copyright">
+          <div class="container">
+          Deng Neyal 2017
+          <a class="grey-text text-lighten-4 right" href="#!">Back To Top ^</a>
           </div>
-        </footer>
+        </div>
+      </footer>
+
+
+
     <!-- Javascript Files -->
-    <script src="assets/js/jquery-3.2.1.min.js"></script>
-    <script src="assets/js/materialize.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.6/typed.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js" type="text/javascript"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-localScroll/1.4.0/jquery.localScroll.min.js" type="text/javascript"></script>
-    <script>
-        // jquery shorthand + arrow function for mobile navigation
-        $(()=>{
-            $(".button-collapse").sideNav();
-        })
-        // Scroll Effect
-        $('nav').localScroll();
-        $("#scroll").click(function() {
-            $('html, body').animate({
-                scrollTop: $("#about").offset().top
-            }, 1000);
+    <script src="script.js"></script>
+    <script>     
+        $(function(){
+            $(".button-collapse").sideNav({
+                menuWidth: 225,
+                closeOnClick: true,
+                draggable: true,
+            })
+            if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(navigator.userAgent)) {
+                // Take the user to a different screen here.
+                document.getElementById('desc').innerHTML += 'DEVELOPER';
+            }
+            // Scroll Effect
+            $('nav').localScroll();
+            $("#scroll").click(function() {
+                $('html, body').animate({
+                    scrollTop: $("#about").offset().top
+                }, 1000);
+            });
         });
     </script>
 </body>
-
 </html>
