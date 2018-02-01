@@ -159,3 +159,9 @@ nav{
   color: white;
   margin-top: 7px;
 }
+.panel-height{
+    height: 220px;
+}
+.card-height{
+    min-height: 150px;
+}
