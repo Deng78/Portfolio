@@ -1,4 +1,4 @@
-particlesJS.load('part', 'particles.json', () => console.log('callback - particles.js config loaded'));
+particlesJS.load('part', 'particles.json');
 
 // init typed.js
 const typedConfig = {
