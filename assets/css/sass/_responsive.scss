@@ -1,0 +1,58 @@
+/* mobile */
+@media screen and (max-width:767px) {
+    #part{
+        height: 85vh
+    }
+ }
+ @media screen and (max-width:767px) and (orientation: landscape) {
+    #part{
+        height: 115vh
+    }
+ }
+/* tablet */
+@media only screen and (device-width: 768px) {
+    /* For general iPad layouts */
+    #part{
+        height: 50vh;
+    }
+  }
+  @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+    /* For landscape layouts only */
+    #part{
+        height: 85vh;
+    }
+    .scroll-container{
+        margin: 50px auto;
+        width: 100px;
+    }
+  }
+/* All Devices */
+@media screen and (max-width: 992px){
+
+    .header-content{
+        margin-top:100px;
+    }
+    .icon-scroll,.scroll,
+    .icon-scroll:before, .scroll-text
+     {
+      display: none;
+      visibility: none;
+    }
+    #pnart{
+        height: 80vh;
+    }
+    #about{
+        width:inherit;
+        margin:inherit;
+    }
+
+}
+@media only screen and (max-width: 736px) {
+
+    .gradient-bg{
+        background: #355C7D;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to bottom, #C06C84, #6C5B7B, #355C7D);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to bottom, #C06C84, #6C5B7B, #355C7D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+    }   
+}

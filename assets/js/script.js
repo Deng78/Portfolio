@@ -1,4 +1,4 @@
-particlesJS.load('part', 'particles.json');
+particlesJS.load('header-wrapper', 'particles.json');
 
 // init typed.js
 const typedConfig = {

@@ -1,0 +1,48 @@
+@import 'responsive';
+@import 'scroll';
+
+// Header & Nav
+#header-wrapper{
+    height:100vh;
+    background: #355c7d; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #355c7d, #6c5b7b, #c06c84); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #355c7d, #6c5b7b, #c06c84); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    nav{
+        background-color: transparent;
+    }
+    .header-content{
+        margin-top: 19vh;
+        position: absolute;
+        left: 0;
+        right: 0;
+        // Social Images
+        a img{
+            margin: 5px;
+            height: 40px;
+        }
+    }
+}
+
+// Sections
+section{
+    margin-top: 90px;
+    .section-text{
+        margin-top: 50px;
+    }
+}
+#about{
+    width:70%;
+    margin:90px auto;
+    display: none;
+}
+#contact{
+    .map {
+        margin-top: 50px;
+        height: 380px;
+        border: solid 3px #666666;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        max-width: 100%;
+    }
+}
